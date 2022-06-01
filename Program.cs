@@ -60,7 +60,7 @@ namespace Klausur_Vorbereitung_2._0
                         Console.WriteLine("y2=");
                         y2 = Convert.ToDouble(Console.ReadLine());
                         m = (y2 - y1) / (x2 - x1);
-
+                        Console.WriteLine("Die Funktionsgleichung lautet: y=f(x)= " +  Math.Round(m, 2) + "x + " + Math.Round(m * -x1 + y1,2));
 
 
                         break;
